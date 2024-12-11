@@ -10,6 +10,7 @@ export const Services = (props) => {
             Committed to delivering exceptional value, fostering innovation to succeed in a technology-driven world.
           </p>
         </div>
+        
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
