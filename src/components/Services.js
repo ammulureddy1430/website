@@ -7,10 +7,10 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Our Services</h2>
           <p>
-            Committed delivering exceptional value, fostering innovation to succeed in a technology-driven world.
+            Committed to delivering exceptional value, fostering innovation to succeed in a technology-driven world.
           </p>
         </div>
-
+        
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
