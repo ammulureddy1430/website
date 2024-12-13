@@ -96,29 +96,14 @@ hr {
   font-size: 3.5em;
   text-shadow: rgba(0, 0, 0, 0.498039) 2px 2px 2px;
   letter-spacing: 0.02em;
+  display: flex;
+  justify-content: center;
 }
 .heading-title .main-element{
   margin-left: 8px;
-    color: #f8198d;
 }
-.typed-cursor {
-  margin-left: 6px;
-}
-.main-element:after {
-  content: '';  
-  animation: spin 8s linear infinite 1s;
-}
-@keyframes spin {
-  0% {
-    content: 'Web Developers';
-  }
-  20% {
-    content: 'Creative';
-  }
-  40% {
-    content: 'Ambitious';
-  }
-  
+.intro .Typewriter__wrapper{
+  color: #f8198d !important;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -197,22 +182,38 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #f8198d;
-  padding: 14px 34px;
+  padding: 12px 23px;
   letter-spacing: 1px;
-  margin: 0;
-  font-size: 15px;
+  margin: -25px;
+  font-size: 14px;
   font-weight: 500;
-  border-radius: 25px;
-  border: 0;
+  border-radius: 3px;
 }
 .btn-custom:hover{
   color: #fff;
 }
 
+.btn-bar a {
+  margin-right: 10px;
+}
+.btn-custom-outline {
+  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: 3px;
+  padding: 12px 23px;
+  color: #fff;
+  font-weight: 700;
+  transition: all .5s ease-out;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.btn-custom-outline:hover, .btn-custom-outline:focus {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, .5);
+}
 a:focus,
 .btn:focus,
 .btn:active:focus,
@@ -222,6 +223,7 @@ a:focus,
 .btn.active.focus {
   outline: none;
   outline-offset: none;
+  color: white;
 }
 /* Header Section */
 .intro {
@@ -253,16 +255,17 @@ a:focus,
   font-weight: 800;
   color: white;
 }
+
 .intro p {
   color: #fff;
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 300px;
   padding-bottom: 200px;
   text-align: center;
 }
