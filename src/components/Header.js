@@ -1,6 +1,22 @@
 import React from "react";
-import Typewriter from "typewriter-effect"
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 export const Header = (props) => {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Web Developers", "Creative", "Ambitious"],
+      typeSpeed: 100,
+      backSpeed:60,
+      loop: true,
+      loopCount: Infinity,
+      cursorChar: "|"
+    });
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <header id="header">
       <div className="intro">
@@ -11,21 +27,7 @@ export const Header = (props) => {
                 <h1 className="heading-title">
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
-                  <span className="main-element theme-color">
-                    <Typewriter className="typewriter"
-                      onInit={(typewriter) => {
-                          typewriter
-                              .typeString("Web Developers")
-                              .pauseFor(1000)
-                              .deleteAll()
-                              .typeString("Creative")
-                              .pauseFor(1000)
-                              .deleteAll()
-                              .typeString("Ambitious")
-                              .start()
-                      }} 
-                    />
-                  </span>
+                  <span className="main-element theme-color" ref={el} />
                 </h1>
                 
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
