@@ -78,6 +78,7 @@ hr {
 #menu.navbar-default {
   padding: 11px;
   background: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
@@ -148,14 +149,6 @@ hr {
 }
 .navbar-toggle {
   border-radius: 0;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  border-color: blue;
-}
-.navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: blue;
 }
 .section-title {
   margin-bottom: 70px;

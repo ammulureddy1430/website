@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 export const Header = (props) => {
   const el = useRef(null);
@@ -39,7 +38,7 @@ export const Header = (props) => {
                     Get Started
                   </a>{" "}
                   <a 
-                    href="#" 
+                    href="#contact" 
                     className="btn btn-custom-outline"
                   >
                     Contact Us
