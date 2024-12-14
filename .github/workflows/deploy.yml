@@ -13,6 +13,14 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+    - name: Install dependcy
+      run: npm install
 
-    - name: Deploy react app to github pages
-      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
+    # - name: Deploy react app to github pages
+      # uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
+    - uses: Build
+      run: npm run build
+
