@@ -22,7 +22,7 @@ export const Header = (props) => {
                               .pauseFor(1000)
                               .deleteAll()
                               .typeString("Ambitious")
-                              .start();      
+                              .start()
                       }} 
                     />
                   </span>
