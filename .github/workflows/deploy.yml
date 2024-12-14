@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v4
-        with:
+      with:
           node-version: 20
     - name: Install dependcy
       run: npm install
