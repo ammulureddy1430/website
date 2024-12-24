@@ -1,5 +1,4 @@
 import React from "react";
-import MoreServices from "./MoreServices";
 export const Services = (props) => {
   return (
     <div id="services" className="text-center">
