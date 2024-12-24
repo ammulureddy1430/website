@@ -248,7 +248,7 @@ a:focus,
 }
 
 .intro p {
-  color: #fff;
+  color: #fff!important;
   font-size: 23px;
   font-weight: 300;
   line-height: 30px;
@@ -263,6 +263,12 @@ header .intro-text {
 /* Features Section */
 #features {
   background: #f6f6f6;
+}
+#features h2,h3 {
+  color: #000!important;
+}
+#features .text-black {
+  color: #000!important;
 }
 #features i.fa {
   font-size: 38px;
@@ -301,6 +307,9 @@ header .intro-text {
 #about .about-text .paragraph1 {
   margin-top: -15px;
 }
+#about .about-text p {
+  color: #000!important;
+}
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -329,16 +338,88 @@ header .intro-text {
 
 /* Services Section */
 #services {
-  padding: 100px 0;
   background: #000;
   color: #fff;
+  width: 45%;
 }
-#services .service-desc {
+/* #services .container {
+  display: flex;
+} */
+#services .container .row {
+  display: flex;
+}
+#services .service-style1__title {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  padding: 55px;
+  width: 100%;
+}
+#services .service-style1__title .sub-title {
+  display: flex;
+  margin-bottom: 15px;
+}
+#services .service-style1__title .sub-title .border-box {
+  position: relative;
+  margin-right: 10px;
+  width: 18px;
+  height: 2px;
+  background-color: #F57200;
+  margin-top: 11px;
+}
+#services .service-style1__title h2 {
+  color: #fff!important;
+  float: left;
+  text-align: justify;
+  line-height: 1.3em;
+}
+#services .service-style1__title .inner-text p {
+  color: #fff!important;
+  float: left;
+  text-align: justify;
+  margin-right: 45px;
+  padding-bottom: 30px;
+}
+#services .service-style1__title .image_holder_box img{
+  width: 34%;
+  float: left;
+  height: 75px;
+}
+#services .service-style1__title .image_holder_box .services_title h3 {
+  color: #fff!important;
+  float: left;
+  margin-left: 35px;
+}
+#services .service-style1__content {
+  position: relative;
+  display: block;
+  padding-left: 100px;
+}
+#services .service-style1__content .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+#services .service-style1__content h2,h3,p {
+  color: #000;
+}
+#services .service_style {
+  background-color: #eff7f8;
+  width: 100%;
+  padding: 50px 20px 20px 20px;
+  margin: 20px;
+  height: 210px;
+}
+#services .service_style:hover{
+  background-color: grey;
+  filter: grayscale(1);
+}
+/* #services .service-desc {
   margin: 10px 10px 20px;
-}
-#services h2 {
-  color: #fff;
-}
+} */
+ #services .service-style1__content img {
+  border-radius: 10%;
+  width: 60px;
+ }
 #services .section-title h2::after {
   position: absolute;
   content: "";
@@ -364,12 +445,27 @@ header .intro-text {
   padding: 5px 0;
   color: #fff;
 }
-#services p {
-  color: #fff;
-}
 #services .service-desc {
   margin-bottom: 40px;
 }
+#services .btn-services {
+  float: right;
+  margin-right: -20px;
+  background-color: #000;
+  color: #fff;
+  line-height: 55px;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 1px solid black;
+  width: 175px;
+}
+#services .btn-services:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -459,6 +555,9 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+.testimonial .text-black {
+  color: #000!important;
+}
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -489,6 +588,10 @@ header .intro-text {
 }
 #contact .section-title p {
   font-size: 16px;
+  color: #fff!important;
+}
+#contact .contact-item h3,p {
+  color: #fff!important;
 }
 #contact h2 {
   color: #fff;

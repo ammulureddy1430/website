@@ -65,34 +65,24 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/services/Analytic.jpg",
+      "name": "Analytics Service",
+      "text": "With our expertise in data analysis and cutting-edge technology,we help businesses unlock the true potential of their data. Our team of skilled analysts specializes in extracting actionable insights from complex datasets, enabling you to make informed decisions and drive strategic growth"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/services/Blockchain.jpg",
+      "name": "Block Chain",
+      "text": "Our expertise in secure transactions, decentralized applications, smart contracts, and transparent record-keeping ensures enhanced efficiency and trust in your business operations. By leveraging blockchain, we empower organizations to streamline processes, reduce costs, and mitigate risks."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/services/Business_operations.jpg",
+      "name": "Business Operations",
+      "text": " We provide comprehensive solutions tailored to your specific needs, enabling you to streamline processes, enhance efficiency, and maximize productivity. From workflow optimization and resource management to performance analytics and cost optimization, our experienced team leverages cutting-edge technology and industry best practices to drive operational excellence."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "image": "img/services/cloud.jpg",
+      "name": "Cloud",
+      "text": "With Cloud Services, you gain access to cutting-edge technologies, seamless integration, and enhanced scalability, enabling you to focus on your core business while we handle the complexities of cloud management. Experience the power of the cloud with AVL as your trusted partner."
     }
   ],
   "Testimonials": [
