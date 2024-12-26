@@ -71,6 +71,9 @@
 }
 
 @media (min-width: 767px) and (max-width: 1024px) {
+  #about .about-text {
+    margin-top: 20px;
+  }
   #services {
     width: 68%;
   }
