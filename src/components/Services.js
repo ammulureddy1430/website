@@ -4,7 +4,8 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="row">
-          <div class="col-xl-5">
+          <div className="service_content">
+          <div class="col-md-5">
             <div class="service-style1__title">
               <div class="sec-title sec-title--style2">
                 <div class="sub-title">
@@ -22,30 +23,28 @@ export const Services = (props) => {
                   <img src="img/services/service_style.jpg" />
                 </span>
                 <span className="services_title">
-                  <h3>Consultancy Services</h3>
+                  <h3>Shashi Consultancy Services</h3>
                 </span>
               </div>
             </div>
           </div>
-          <div className="service_rightContent">
-            <div className="col-xl-7">
+          <div className="col-md-7">
+            <div className="service_rightContent">
               <div class="service-style1__content">
                 <div className="row">
                   {props.data
                     ? props.data.map((d, i) => (
                       <div key={`${d.name}-${i}`} className="col-xl-6 col-lg-6 col-md-6">
                         {" "}
-                        <a href="#">
                         <div className="service_style">
                         <span className="servicesImg">
                           <img src={d.image} alt={d.name} />
                         </span>
                         <div className="service-desc">
                           <h3>{d.name}</h3>
+                          <p className="text-black">{d.text}</p>
                         </div>
-                        </div>
-                        </a>
-                        
+                        </div>   
                       </div>
                     ))
                     : "loading"}
@@ -53,17 +52,9 @@ export const Services = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-mt-3">
-              <span>
-              <a className="btn-services" href="#">
-                <span className="btn-text">
-                  View All
-                </span>
-              </a>    
-              </span>
-              
-            </div>
           </div>
+          </div>
+          
         </div>
       </div>
     </div>

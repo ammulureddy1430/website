@@ -270,6 +270,10 @@ header .intro-text {
 #features .text-black {
   color: #000!important;
 }
+#features .featuresImg img{
+  width: 120px;
+  height: 100px;
+}
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -340,18 +344,15 @@ header .intro-text {
 #services {
   background: #000;
   color: #fff;
-  width: 45%;
+  width: 36%;
 }
-/* #services .container {
-  display: flex;
-} */
 #services .container .row {
   display: flex;
 }
 #services .service-style1__title {
   position: relative;
   display: block;
-  margin-top: 30px;
+  margin-top: 80px;
   padding: 55px;
   width: 100%;
 }
@@ -372,28 +373,30 @@ header .intro-text {
   float: left;
   text-align: justify;
   line-height: 1.3em;
+  white-space: nowrap;
 }
 #services .service-style1__title .inner-text p {
   color: #fff!important;
   float: left;
   text-align: justify;
-  margin-right: 45px;
   padding-bottom: 30px;
+  margin-right: 10px;
+}
+#services .service-style1__title .image_holder_box {
+  display: inline;
 }
 #services .service-style1__title .image_holder_box img{
-  width: 34%;
+  width: 26%;
+  height: auto;
   float: left;
-  height: 75px;
 }
 #services .service-style1__title .image_holder_box .services_title h3 {
   color: #fff!important;
-  float: left;
-  margin-left: 35px;
+  margin-top: auto;
 }
 #services .service-style1__content {
   position: relative;
   display: block;
-  padding-left: 100px;
 }
 #services .service-style1__content .row {
   display: flex;
@@ -405,13 +408,9 @@ header .intro-text {
 #services .service_style {
   background-color: #eff7f8;
   width: 100%;
-  padding: 50px 20px 20px 20px;
+  padding: 50px 30px 40px 30px;
   margin: 20px;
-  height: 210px;
-}
-#services .service_style:hover{
-  background-color: grey;
-  filter: grayscale(1);
+  height: 380px;
 }
 /* #services .service-desc {
   margin: 10px 10px 20px;
@@ -448,24 +447,9 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
-#services .btn-services {
-  float: right;
-  margin-right: -20px;
-  background-color: #000;
-  color: #fff;
-  line-height: 55px;
-  font-weight: 700;
-  letter-spacing: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  border: 1px solid black;
-  width: 175px;
+#services .text-black {
+  color: #000!important;
 }
-#services .btn-services:hover {
-  background-color: #fff;
-  color: #000;
-}
-
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -515,98 +499,16 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
-.testimonial .text-black {
-  color: #000!important;
-}
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-#team h4 {
-  margin: 5px 0;
-}
-#team .team-img {
-  width: 240px;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
+
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
-  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  padding: 30px 0 60px;
+  width: 45%;
   background: #222;
   color: rgba(255, 255, 255, 0.75);
 }
-#contact .section-title {
-  margin-bottom: 40px;
-}
-#contact .section-title p {
-  font-size: 16px;
-  color: #fff!important;
-}
 #contact .contact-item h3,p {
   color: #fff!important;
-}
-#contact h2 {
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-}
-#contact .section-title h2::after {
-  position: absolute;
-  content: "";
-  background: rgba(255, 255, 255, 0.3);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  left: 30px;
 }
 #contact h3 {
   color: #fff;
@@ -615,63 +517,7 @@ header .intro-text {
   padding-bottom: 20px;
   font-weight: 400;
 }
-#contact form {
-  padding-top: 20px;
-}
-#contact .text-danger {
-  color: #cc0033;
-  text-align: left;
-}
-#contact .btn-custom {
-  margin: 30px 0;
-  background: transparent;
-  border: 2px solid #fff;
-}
-#contact .btn-custom:hover {
-  color: #1f386e;
-  background: #fff;
-}
-label {
-  font-size: 12px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  float: left;
-}
-#contact .form-control {
-  display: block;
-  width: 100%;
-  padding: 6px 12px;
-  font-size: 16px;
-  line-height: 1.42857143;
-  color: #444;
-  background-color: #fff;
-  background-image: none;
-  border: 1px solid #ddd;
-  border-radius: 0;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-#contact .form-control:focus {
-  border-color: #999;
-  outline: 0;
-  -webkit-box-shadow: transparent;
-  box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-  color: #777;
-}
-.form-control:-moz-placeholder {
-  color: #777;
-}
-.form-control::-moz-placeholder {
-  color: #777;
-}
-.form-control:-ms-input-placeholder {
-  color: #777;
-}
+
 #contact .contact-item {
   margin: 20px 0;
 }
@@ -714,7 +560,7 @@ label {
 }
 
 #footer p {
-  color: #888;
+  color: #888!important;
   font-size: 14px;
   text-align: center;
   margin-left: 20px;

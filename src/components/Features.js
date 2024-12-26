@@ -11,11 +11,16 @@ export const Features = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                <div key={`${d.title}-${i}`} className="col-sm-6 col-md-3 col-lg-3 features_content">
                   {" "}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p className="text-black">{d.text}</p>
+                  {/* <i className={d.icon}></i> */}
+                  <span className="featuresImg">
+                    <img src={d.img} alt={d.title} />
+                  </span>
+                  <span className="features_desc">
+                    <h3>{d.title}</h3>
+                    <p className="text-black">{d.text}</p>
+                  </span>
                 </div>
               ))
             : "Loading..."}
