@@ -44,7 +44,7 @@ export const Contact = (props) => {
             </div>
             <div className="col-md-4">
               <p className="text-black">
-                &copy;  2024 SCS. All rights reserved.{" "}
+                &copy;  2024 SIS. All rights reserved.{" "}
               </p>
             </div>
             <div className="col-md-4">

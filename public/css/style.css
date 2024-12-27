@@ -373,7 +373,7 @@ header .intro-text {
   margin-right: 10px;
 }
 #services .service-style1__title .image_holder_box {
-  display: inline;
+  display: inline-block;
 }
 #services .service-style1__title .image_holder_box img{
   width: 26%;
@@ -382,7 +382,7 @@ header .intro-text {
 }
 #services .service-style1__title .image_holder_box .services_title h3 {
   color: #fff!important;
-  margin-top: auto;
+  margin-top: 20px;
 }
 #services .service-style1__content {
   position: relative;

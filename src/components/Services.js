@@ -23,7 +23,7 @@ export const Services = (props) => {
                   <img src="img/services/service_style.jpg" />
                 </span>
                 <span className="services_title">
-                  <h3>Shashi Consultancy Services</h3>
+                  <h3>Samy IT Services</h3>
                 </span>
               </div>
             </div>
@@ -48,7 +48,6 @@ export const Services = (props) => {
                       </div>
                     ))
                     : "loading"}
-
                 </div>
               </div>
             </div>
