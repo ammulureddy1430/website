@@ -33,7 +33,6 @@
     width: 100%;
   }
   #about,
-  #contact,
   #footer {
     width: 480px;
     padding: 0px;
@@ -62,10 +61,12 @@
   #portfolio .portfolio-item {
     width: 480px;
   }
-  #footer .social {
-    justify-content: center;
-    float: none;
-    margin-left: 10%;
+  #contact {
+    padding: 0px 0px 40px 0px;
+    width: 480px;
+  }
+  #footer p{
+    padding: 10px;
   }
 
 }

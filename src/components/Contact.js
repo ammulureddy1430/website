@@ -36,37 +36,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="footer-container">
           <div className="row">
-            <div className="col-md-4">
-              <p className="footer-links">
-                <a href="#">Terms of Use</a>
-                <a href="#">Privacy Policy</a>
-              </p>
-            </div>
-            <div className="col-md-4">
-              <p className="text-black">
-                &copy;  2024 SIS. All rights reserved.{" "}
-              </p>
-            </div>
-            <div className="col-md-4">
-              
-                <ul className="social">
-                  <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"} target="_blank">
-                      <i className="fa fa-youtube"></i>
-                    </a>
-                  </li>
-                </ul>
-            </div>
+            <p className="text-black">
+              &copy;  {new Date().getFullYear()} Samy IT Services - All Rights Reserved.{" "}
+            </p>
           </div>
         </div>
       </div>

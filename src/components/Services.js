@@ -20,7 +20,7 @@ export const Services = (props) => {
               </div>
               <div className="image_holder_box">
                 <span className="services_title_img">
-                  <img src="img/services/service_style.jpg" />
+                  <img src="img/services/service_style.jpg" alt="Samy IT Services"/>
                 </span>
                 <span className="services_title">
                   <h3>Samy IT Services</h3>
